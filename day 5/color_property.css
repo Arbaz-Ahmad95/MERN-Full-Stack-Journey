@@ -1,0 +1,18 @@
+.simple p{
+    background-color: yellow;
+    color: red;
+    font-size: 40px;
+    width: 300px;
+    height: 300px;
+
+}
+.rgb p{
+    background-color: rgb(255, 000, 120);
+    width: 300px;
+    height: 300px;
+}
+.hexadecimal{
+    background-color: #ff33ff;
+    width: 300px;
+    height: 300px;
+}
