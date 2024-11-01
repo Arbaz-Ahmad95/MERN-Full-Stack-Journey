@@ -1,0 +1,27 @@
+.margin-left{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    margin-left: 300px;
+}
+
+.margin-right{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    margin-right: 300px;
+}
+
+.margin-bottom{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 300px;
+}
+
+.margin-top{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    margin-top: 300px;
+}

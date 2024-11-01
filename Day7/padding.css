@@ -1,0 +1,36 @@
+.padding-left{
+    background-color: burlywood;
+    height: 300px;
+    width: 300px;
+}
+.padding-left p{
+    background-color: blueviolet;
+    padding-left: 60px;
+}
+.padding-right{
+    background-color: burlywood;
+    height: 300px;
+    width: 300px;
+}
+.padding-right p{
+    background-color: blueviolet;
+    padding-right: 50px;
+}
+.padding-bottom{
+    background-color: burlywood;
+    height: 300px;
+    width: 300px;
+}
+.padding-bottom p{
+    background-color: blueviolet;
+    padding-bottom: 60px;
+}
+.padding-top{
+    background-color: burlywood;
+    height: 300px;
+    width: 300px;
+}
+.padding-top p{
+    background-color: blueviolet;
+    padding-top: 70px;
+}
