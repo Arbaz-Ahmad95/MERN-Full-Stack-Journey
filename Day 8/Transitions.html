@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        div{
+            background-color: yellow;
+            width: 200px;
+            height: 200px;
+            transition: 1s;
+            transition-delay: 1s;
+            
+        }
+        div:default{
+            background-color: red;
+            border-radius: 50%;
+
+        }
+        .transition{
+            background-color: yellowgreen;
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+            margin-top: 10px;
+            transition: margin-top 2s ease-in 0.2s;
+        }
+        .transition:hover{
+            margin-top: 400px;
+            background-color: blue;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+</head>
+<body>
+   <h2>Transition property </h2> 
+   <div>
+    
+   </div>
+   <div class="transition">
+   <h3>2nd transition example</h3>
+   </div>
+</body>
+</html>
