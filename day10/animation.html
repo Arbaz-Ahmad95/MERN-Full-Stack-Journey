@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <Style>
+        .container{
+            background-color: rgb(147, 223, 16);
+            width: 400px;
+            height: 300px;
+            display: flex;
+            animation-name: arbaz;
+            animation-duration: 2s;
+            animation-timing-function: ease-in;
+            animation-delay: 0;
+            animation-iteration-count: 5;
+            animation-direction: normal;
+
+        }
+       
+        @keyframes arbaz{
+            from{
+                margin-left: 10px;
+                font-size: 10px;
+    
+            }
+            to{
+                margin-left: 300px;
+                font-size: 30px;
+            }
+        }
+    </Style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>CSS animation </h2>
+    <div class="container">
+        this is box
+    </div>
+</body>
+</html>

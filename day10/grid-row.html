@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container{
+            background-color: blueviolet;
+            width: 600px;
+            height: 200px;
+            display: grid;
+            grid-template-rows: 50px 50px 50px 50px;
+            grid-template-columns: 100px 100px 100px 100px;
+            
+        }
+        .item{
+            background-color: greenyellow;
+            border: 2px solid black;
+           
+            text-align: center;
+        }
+        .one{
+            grid-row-start: 1;/* start line */
+            grid-row-end: 3; /* end line */
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3> 1st box get 2 row space </h3>
+    <div class="container">
+        
+        <div class="item one">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+    
+</body>
+</html>

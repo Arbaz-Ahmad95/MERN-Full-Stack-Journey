@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container{
+            background-color: blueviolet;
+            width: 600px;
+            height: 200px;
+            display: grid;
+            grid-template-rows: repeat(3,1fr); /* 3 rows and repeat 1fr space*/
+            
+        }
+        .item{
+            background-color: greenyellow;
+            border: 2px solid black;
+            text-align: center;
+        }
+        .container2{
+            background-color: blueviolet;
+            width: 300px;
+            height: 200px;
+            display: grid;
+        grid-template-columns: repeat(4,1fr); /* this is number of track i create 3 column track */
+            
+        }
+        .container3{
+            background-color: rgb(226, 43, 223);
+            width: 500px;
+            height: 200px;
+            display: grid;
+            grid-template-rows: repeat(3,1fr) ;
+            grid-template-columns: repeat(4,1fr) /* this is row * column track 3*4 track arrangement*/
+            
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3> 3 row 1fr repeat space arrangement</h3>
+    <div class="container">
+        
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>3 column 1fr repeat space arrangement</h3>
+    <div class="container2">
+        
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+    <br>
+    <br><br>
+    <h3> row * column (3*4) repeat space grid arrangement</h3> 
+    <div class="container3">
+       
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        
+    </div> 
+</body>
+</html>
